@@ -1,0 +1,13 @@
+@use '../../styles/base';
+
+.header {
+  padding: 10px 0;
+  background: base.$primaryFadedColor;
+}
+.headerInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  margin: 0 auto;
+}

@@ -1,0 +1,29 @@
+
+/* colors */
+$primaryColor: #0276fd;
+$primaryFadedColor: #d7eefc;
+$darkColor: #343a50;
+$grayColor: #7e8694;
+$lightGrayColor: #b3b5bc;
+$confirmColor: #17cabf;
+$confirmFadedColor: #e2fdf5;
+$warningColor: #f7ab1a;
+$warningFadedColor: #f8edd9;
+$dangerColor: #fa2c5e;
+$dangerFadedColor: #fbecf2;
+$light: #fdfdfd;
+
+$fontFamily: 'Montserrat', sans-serif;
+$fontSize: 0.875rem;
+
+$maxLayoutWidth: 1280px;
+
+$largeMobileBreakpoint: 480px;
+$smallDesktopBreakpoint: 769px;
+$desktopBreakpoint: 1025px;
+
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
